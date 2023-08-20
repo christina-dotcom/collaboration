@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<title>Contact Form</title>
+	<base target="self">
+</head>
+
+<body>
+<header>
+	<nav>
+		<ul>
+		<li><a href="./index.html">HOME</a></li>
+		<li><a href="./contact.html">CONTACT</a></li>
+		</ul>
+	</nav>
+</header>
+	
+	<br>
+	<center><h1>Our Mission</h1>
+	<h2>Our mission is to make students feel empowered <br>and self-confident every single day.</h2>
+	</center>
+	<br>
+<!---Form name specifies name, id is unique identification and action submits to same page to process data---->
+<FORM name ="subscribe" id="subscribe_frm" action="#">
+    
+        <!-- TH is table header element in a table and H3 uses CSS styles -->
+        <center><H1>CONTACT FORM</H1></center>
+        <!--Table align to center, borderless, 5 cellpadding and 2 cellspacing -->
+        
+		<table class="contact" ALIGN="CENTER" border="0" cellpadding="5" cellspacing="7">
+			
+            <!-- TR defines a row of cells in a table -->
+            <tr>
+                
+                <!--- TD is data cell in table layout ---->
+                <td><label for="fullname"> Full Name </label></td>
+                <!--Data cell to display colon (:)-->
+                <td>:</td>
+                <!--User to key in name at placeholder-->
+                <td><input type="text" name="name" style="width: 185px"  placeholder="your full name"></td>
+            </tr>
+            <tr>
+                <!--Label for Email is email-->
+                <td><label for="email"> Email </label></td>
+                <td>:</td>
+                <!--User to key in email address at placeholder-->
+                <td><input type="text" name="email" style="width: 185px" placeholder="youremail@gmail.com"></p></td>
+            </tr>
+            <tr>
+                <!--Label for Gender is gender-->
+                <td><label for="gender">Gender</td>
+                <td>:</td>
+                <!--Name is the same to ensure users can click either male or female gender in radio button-->
+
+				<td><input type="radio" Name="Gender" ID="R1" Value="Male"></LABEL>
+                    <label for="R1">Male</label>
+                    <INPUT TYPE="Radio" Name="Gender" ID="R2" Value="Female">
+                    <LABEL FOR="R2">Female</LABEL></td>
+            </tr>
+  
+            <tr>
+                <td><label for="location">Location </label></td>
+                <td>:</td>
+                <!--- Select location with value 0 for unselected location to prompt for error message alert in JavaScript---->
+                <td><select name="location" id="slt_location">
+                    <option value="0">---Select Your Location---</option>
+                    <option value="Selangor">Selangor</option>
+                    <option value="Perak">Perak</option>
+                    <option value="Wilayah Persekutuan Kuala Lumpur">Wilayah Persekutuan Kuala Lumpur</option>
+                    <option value="Wilayah Persekutuan Putrajaya">Wilayah Persekutuan Putrajaya</option>
+                </select>
+            </tr> 
+
+            <tr> 
+                <!--User to key in their enquiries at textarea-->
+                <td><label for="comments">Please Write Your Enquiry </label></td>
+                <td>:</td>
+                <!--- Textarea in table allows users to insert text beyond one line---->
+                <td><textarea name="comments" rows="7" cols="35" placeholder="Type your enquiries here..."></textarea></td>
+            </tr>
+        <!--- End of table---->
+        </table>
+        
+        <!--Center text -->
+        <p style="text-align:center;">
+        <!--User to submit or cancel what they have keyed in-->
+		<button type="submit">Submit</button>
+        
+    <!--- End of form---->
+    </form>
+</table>
+</body>
+</html>
+

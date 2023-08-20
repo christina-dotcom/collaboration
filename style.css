@@ -1,0 +1,93 @@
+table.tt { border: 5px solid white;
+    border-collapse: separate;
+    border-spacing:10px;
+    border-color:whitesmoke;
+    min-width:400px;
+    margin-left:auto;}
+
+table.tt td  { border: 1px solid white;
+             width:450px; text-align:center; font-weight: 600; }
+
+#narrow { width: 100px; text-align:center; font-weight: 600; background-color: #e813ec; } 
+
+#time { background-color: #e813ec; }
+
+#day { background-color: #e813ec; }
+
+#assembly { background-color: rgb(185, 248, 227); }
+
+#physics { background-color: darkturquoise; }
+
+#break { background-color: gold; }
+
+#pshe { background-color: darkorange; }
+
+#ict { background-color:  rgb(255, 0, 157); }
+
+#biology { background-color: darkkhaki; }
+
+#mandarin { background-color: tomato; }
+
+#lunch { background-color: gold; }
+
+#maths { background-color: cyan; }
+
+#malay { background-color: indianred; }
+
+#economics { background-color: khaki; }
+
+#english { background-color: lightsalmon; }
+
+#chemistry { background-color: lime; }
+
+#pe { background-color: navajowhite; }
+
+#business { background-color: peru; }
+
+#global { background-color: rgb(238, 255, 0); }
+
+
+h1	{ text-align:center;
+      color:#33DDFF;}
+
+h2	{ text-align:center;
+    color:white;}
+
+h3	{ text-align:center;
+    color:rgb(238, 255, 0);}
+
+h4	{ text-align:center; font-weight: 600;
+        color:black;}
+
+p	{ color:white;
+    text-align:justify;
+    font-size: 12pt;}
+
+body	{ background-color:#6B5B95;
+    background-image: url('christina logo.png');
+        background-size: 120px;
+    background-repeat: no-repeat;
+        background-position: 10px 50px; }
+
+nav ul { list-style: none;
+          padding: 0;
+       margin: 0;
+       background-color: green;
+       text-align: center;  }
+
+nav li { display: inline-block; 
+       width: 20%; 
+       margin-right: -4px; }
+
+nav a { display: block; 
+      text-decoration: none;  } 
+
+nav a:hover { background-color: red; }
+
+h1,h2,h3,p   { font-family: "San Francisco", Calibri, sans-serif;}
+
+table.contact { border: 5px solid blue;
+  border-collapse: separate; }
+
+/* A candidate ZZ999 9999 */
+  
